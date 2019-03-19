@@ -1,4 +1,3 @@
-// implement your API here - doing 
 // implement your API here
 const express = require('express');
 const server = express();
@@ -68,4 +67,6 @@ server.put('/api/users/:id', (req, res) => {
 })
 server.listen(`${PORT}`, () => {
     console.log(`Server is listening on port: ${PORT}`)
-})
+}) 
+
+//fix error causing app to crash
